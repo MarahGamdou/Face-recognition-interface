@@ -1,5 +1,5 @@
 import cv2
-from utils import image_resize
+from reshape_img import image_resize
 
 glasses = cv2.imread("glasses\glasses(5).png", -1)
 mustache = cv2.imread("mustache.png", -1)

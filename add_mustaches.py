@@ -1,5 +1,5 @@
 import cv2
-from reshapeimg import image_resize
+from reshape_img import image_resize
 
 def draw_mustache(img, mustache_resized, x, y, nx, ny, nw, nh, mw, mh):
     my = y + ny + int(nh*0.6)
